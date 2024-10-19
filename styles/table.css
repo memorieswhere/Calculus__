@@ -1,0 +1,126 @@
+.table {
+
+    display: table;
+
+}
+
+.table {
+
+    color: #202122;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-collapse: collapse;
+    page-break-inside: avoid
+}
+
+.table>tr>th,
+.table>*>tr>th,
+.table>*>tr>td {
+    background: #3c3f41;
+
+    padding: 0.42em 0.6em;
+    text-align: center;
+}
+
+.table>*>tr>th {
+
+    color: #acacac;
+
+}
+
+.table>tr>th,
+.table>*>tr>th {
+    font-size: 12.2pt;
+}
+
+.table>tr>th,
+.table>tr>td,
+.table>*>tr>th,
+.table>*>tr>td {
+    border: 1px solid #373a3f;
+}
+
+.table>tr>th,
+.table>*>tr>th {
+
+    text-align: center
+}
+
+.table>caption {
+    font-weight: bold
+}
+
+tbody {
+
+    display: table-row-group;
+    vertical-align: middle;
+
+}
+
+
+
+#table1>*>tr>td:not(:nth-of-type(1)) {
+
+    font-size: 14px;
+}
+
+#table1>*>tr>td:nth-of-type(1) {
+
+    font-size: 14px;
+    
+}
+
+
+#table2>*>tr>th,
+#table2>*>tr>td {
+
+    color: #acacac;
+
+}
+
+#table2>*>tr>td:not(:nth-of-type(1)) {
+
+    text-align:left;
+    font-size: 11pt;
+}
+
+#table2>*>tr>td:nth-of-type(1) {
+
+    font-size: 10pt;
+    
+}
+
+
+#table3>*>tr>td:nth-of-type(1) {
+
+    font-size: 14px;
+    color: #acacac;
+    
+}
+
+#table3>*>tr>td:not(:nth-of-type(1)) {
+
+    font-size: 15px;
+    color: black;
+}
+
+
+
+#table4>*>tr>td:nth-of-type(1) {
+
+    font-size: 14px;
+
+}
+
+#table4>*>tr>td:not(:nth-of-type(1)) {
+
+    font-size: 15px;
+
+}
+
+#table4>*>tr>th {
+
+    font-size: 15px;
+
+}

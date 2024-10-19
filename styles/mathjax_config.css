@@ -1,0 +1,37 @@
+mjx-container.MathJax {
+    pointer-events: none;
+}
+
+.MJX_LiveRegion,
+.MJX_HoverRegion,
+.MJX_ToolTip {
+
+    width: 0px !important;
+    display: none;
+
+}
+
+.mathjax {
+
+    display: inline-block;
+
+    margin-left: 22px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+
+
+    white-space: nowrap;
+    font-size: var(--default-font-size);
+
+    width: 50px;
+
+}
+
+.override-mathjax-margin .mathjax {
+
+    display: block;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}

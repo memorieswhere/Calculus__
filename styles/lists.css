@@ -1,0 +1,247 @@
+.list {
+
+    margin-block-start: 9px;
+    margin-block-end: 9px;
+
+    padding-inline-start: 27px;
+
+}
+
+.list_unbulleted {
+
+    margin-block-start: 9px;
+    margin-block-end: 9px;
+
+    padding-inline-start: 20px;
+
+}
+
+ul.unordered_nested_list_lvl2 {
+
+    margin-block-start: 9px;
+    margin-block-end: 9px;
+
+    padding-inline-start: 37px;
+
+}
+
+ol.horizontal_items,
+ul.horizontal_items {
+
+    margin-block-start: 9px;
+    margin-block-end: 9px;
+
+
+}
+
+ol.unordered_list {
+
+    margin-block-start: 13px;
+    margin-inline-start: 10px;
+
+}
+
+ol.roman_ordered_list {
+
+    margin-block-start: 9px;
+    margin-block-end: 9px;
+
+    padding-inline-start: 20px;
+
+}
+
+
+
+
+.list > li,
+.list_unbulleted > li,
+ol.unordered_list > li,
+ol.horizontal_items > li,
+ul.horizontal_items > li,
+ol.roman_ordered_list > li,
+ul.unordered_nested_list_lvl2 > li {
+
+    color: var(--main-text-color);
+    line-height: 22.4px;
+    font-size: var(--default-font-size);
+
+}
+
+.list,
+ul.horizontal_items,
+ul.unordered_nested_list_lvl2 {
+
+    list-style-image: url("../resources/bullet-icon.svg");
+    list-style-type: disc;
+
+}
+
+.list_unbulleted {
+
+    list-style-image: none;
+    list-style-type: none;
+
+}
+
+ol.horizontal_items {
+
+    list-style-type: decimal;
+    width: 600px;
+
+}
+
+ol.roman_ordered_list {
+    
+    list-style: none;
+    counter-reset: item;
+
+}
+
+ol.roman_ordered_list li {
+
+    list-style-position: inside;
+    
+}
+
+ol.roman_ordered_list li:before {
+
+    display: inline-block;
+    
+    content: counter(item, lower-roman) ".";
+    counter-increment: item;
+
+    font-style: italic;
+
+    width: 3em;
+
+
+}
+
+
+ol.horizontal_items li{
+
+    float: left;
+    width: 200px;
+
+}
+
+ol.horizontal_items > li:nth-child(n + 4) {
+
+    padding-top: 25px;
+
+}
+
+ol.horizontal_items > li:nth-last-child(-n + 3) {
+
+    padding-bottom: 15px;
+
+}
+
+ul.horizontal_items {
+
+    width: 70%;
+    /** margin-right: -80px; **/
+    column-count: 3;
+    row-gap: 100px;
+
+}
+
+
+
+/** Alternative method for ordered list with horizontally aligned items. There isnt really a pretty way to go about implementing this kind of list
+
+ol.horizontal_items > li {
+
+    display: inline;
+
+}
+
+ol.horizontal_items > li:not(:nth-child(3n + 1)) {
+
+    margin-left: 5%;
+
+}
+
+ol.horizontal_items > li:nth-child(3):after {
+
+    content: "\A";
+    white-space: pre;
+
+}
+**/
+
+.list.lvl2 > li {
+
+    margin-left: 24px;
+
+}
+
+.list .inline_list_padding {
+
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+
+
+}
+
+
+
+
+#formal_continuity_definition > li:not(:first-of-type){
+
+    padding-top: 5px;
+
+}
+
+
+#list_ > li {
+
+    margin: 10px 0;
+
+}
+
+#list_2>li,
+#interval_nota_list > li,
+#LIATE > li {
+
+    margin-top: 5px;
+
+}
+
+#a_DCT > li {
+
+    margin-top: 7px;
+
+}
+
+#list_3>li:not(:first-of-type) {
+
+    margin-top: 9px;
+
+}
+
+#list___ {
+
+    margin-left: 20px;
+
+}
+
+#LIATE{
+
+    margin-bottom: 5px;
+
+}
+
+
+#ol_improperintegral > li {
+
+    margin-bottom: 5px;
+
+}
+
+#fourth_subcases > .mathjax:not(:last-child) {
+
+    margin-bottom: 9px;
+
+}

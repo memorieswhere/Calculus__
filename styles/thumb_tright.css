@@ -1,0 +1,390 @@
+div.thumb_tright { /*if this element's box model is overlapping with other elements, apply clear:both propery to said "other element"*/
+
+    margin: 7px 0 18.2px 19.6px;
+
+    float: right;
+    clear: right;
+
+}
+
+div.inline_thumb_tright {
+
+    margin-left: 20px;
+
+}
+
+div.thumbinner >* img {
+
+    cursor: pointer;
+
+    display: inline;
+    border: 1px solid #33363a;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    overflow: clip;
+
+}
+
+div.thumbinner {
+
+    background-color: #3c3f41;
+
+    min-width: 100%;
+
+    padding: 3px;
+    text-align: center;
+    overflow: hidden;
+
+    border: 1px solid #33363a;
+
+    box-sizing: border-box;
+
+}
+
+div.inline_thumbinner>* img {
+
+    display: inline;
+    padding: 2.5px;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    overflow: clip;
+
+}
+
+div.inline_thumbinner {
+
+    background-color: #3c3f41;
+
+    min-width: 100%;
+    overflow: hidden;
+
+}
+
+.thumbcaption {
+
+    text-align:left;
+
+    padding: 3px;
+
+    color: #a99265;
+    line-height: 22.4px;
+    
+    word-wrap: break-word;
+
+
+    font-size: 12.3704px;
+}
+
+.inline_thumbcaption {
+
+    text-align: left;
+
+    color: #a99265;
+    line-height: 22.4px;
+
+    font-size: 12.3704px;
+}
+
+input[type = checkbox] {
+    display: none;
+}
+
+
+div.thumb_tmulti {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+
+    margin: 20px 0 15px 40px;
+    padding: 3px 6px 20px 6px;
+
+}
+
+div.thumb_tmulti {
+
+    background-color: #3c3f41;
+    border: 1px solid #33363a;
+
+}
+
+div.thumb_tmulti.example {
+
+    align-items: normal;
+
+    max-width: 750px;
+    overflow: hidden;
+
+}
+
+
+div.thumb_tmulti .flex_row {
+
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: row;
+    clear: left;
+
+}
+
+div.thumb_tmulti.example .trow {
+
+    display: flex;
+
+    justify-content: center;
+    background-color: rgb(58, 58, 34);
+
+    margin: 3px 3px 15px 3px;
+    padding: 6px;
+
+}
+
+div.thumb_tmulti.example .tbody :not(.mathjax) {
+
+    font-size: calc(var(--default-font-size) - 0.8px);
+
+}
+
+div.thumb_tmulti.example .tbody .mathjax :not(#increase-specificity) {
+
+    font-size: calc(var(--default-font-size) + 2px);
+}
+
+div.thumb_tmulti.example .tbody {
+
+    margin: 0px 20px 0px 10px;
+
+}
+
+
+div.thumb_tmulti .flex_row .video:not(:last-of-type)  {
+    margin-right: 10px;
+}
+
+div.thumb_tmulti .video {
+
+    float: left;
+    width: 500px;
+
+}
+
+
+div.thumb_tmulti .heading {
+
+    font-size: 93%;
+    color: #a99265;
+    font-weight: bold;
+
+}
+
+div.thumb_tmulti.example .heading {
+
+    font-size: 93%;
+    color: var(--main-text-color);
+    font-weight: bold;
+
+}
+
+
+
+
+#btnControl:checked+label>img,
+#btnControl1:checked+label>img,
+#btnControl2:checked+label>img,
+#btnControl3:checked+label>img,
+#btnControl4:checked+label>img,
+#btnControl5:checked+label>img,
+#btnControl6:checked+label>img,
+#btnControl7:checked+label>img,
+#btnControl8:checked+label>img,
+#btnControl9:checked+label>img,
+#btnControl10:checked+label>img,
+#btnControl11:checked+label>img,
+#btnControl13:checked+label>img,
+#btnControl14:checked+label>img,
+#btnControl15:checked+label>img,
+#btnControl16:checked+label>img,
+#btnControl17:checked+label>img {
+
+    position: fixed;
+
+    height: auto;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    float: none;
+    border: none;
+
+    z-index: 2;
+
+}
+
+#btnControl:checked+label>img:not(#increase-specificity) {
+
+    width: 30%;
+
+}
+
+#btnControl2:checked+label>img:not(#increase-specificity) {
+
+    width: 35%
+
+}
+
+#btnControl3:checked+label>img:not(#increase-specificity),
+#btnControl4:checked+label>img:not(#increase-specificity),
+#btnControl5:checked+label>img:not(#increase-specificity),
+#btnControl7:checked+label>img:not(#increase-specificity),
+#btnControl10:checked+label>img:not(#increase-specificity),
+#btnControl17:checked+label>img:not(#increase-specificity) {
+
+    width: 29%;
+
+}
+
+#btnControl6:checked+label>img:not(#increase-specificity) {
+
+    width: 30%;
+
+}
+
+#btnControl11:checked+label>img:not(#increase-specificity), 
+#btnControl13:checked+label>img:not(#increase-specificity) {
+
+    width: 45%;
+
+}
+
+#btnControl13:checked+label>img:not(#increase-specificity) {
+
+    content: url("../images/Capture2.PNG");
+
+}
+
+#btnControl17:checked+label>img:not(#increase-specificity) {
+
+    content: url("../images/rolle2.PNG");
+
+}
+
+#continuity-side-figure {
+
+    width: 18%;
+
+}
+
+#tright0 {
+
+    width: 12.5%;
+
+}
+
+#tright1 { 
+
+    width: 15%;
+
+}
+
+#tright2,
+#tright3,
+#tright4,
+#tright5,
+#tright6 {
+
+    width: 20%;
+
+}
+
+#tright7 {
+
+    width: 13%;
+
+}
+
+#tright10 {
+
+    width: 22%;
+    height: 22%;
+
+}
+
+#tright11 {
+
+    width: 28%;
+
+}
+
+#tright12 {
+
+    width: 15%;
+
+}
+
+#tright13 {
+
+    width: 15.5%;
+
+}
+
+#tright14 {
+
+    width: 15.5%;
+
+}
+
+#tright15 {
+
+    width: 28%;
+
+}
+
+#tright16 {
+
+    width: 15.1%;
+
+}
+
+#tright17 img {
+
+    width: 110%;
+
+}
+
+#tright17 {
+
+    width: 17.5%;
+
+}
+
+#inline_thumb_tright1,
+#inline_thumb_tright2 {
+
+    margin-top: 13px;
+    margin-bottom: 14px;
+
+}
+
+
+.determining_continuity_1 > :not(.determining_continuity_1, figcaption) > * {
+
+    width: 20%;
+
+}
+
+#onesided {
+
+    width: 15%;
+
+}

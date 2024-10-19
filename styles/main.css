@@ -1,0 +1,284 @@
+@import url("../styles/fonts.css");
+
+.blur {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+    -moz-filter: blur(100px);
+    -o-filter: blur(100px);
+    -ms-filter: blur(100px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+:root {
+
+    --default-font-size: 14px;
+    --main-text-color: #aba598;
+
+}
+
+
+body {
+
+    font-family: 'Iosevka Fixed SS07';
+
+    background-color: #3c3f41;
+    overflow-x: hidden;
+
+}
+
+.content {
+
+    margin-left: 25px;
+    margin-right: 15px;
+    padding-top: 20px;
+
+}
+
+.math_theorem {
+    border: 1px solid #393939;
+    margin-left: 28px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding: 7px 35px 5.6px 14px;
+    display: table;
+}
+
+.theorem_name {
+    display: block;
+    color: var(--main-text-color);
+    line-height: 22.4px;
+    font-size: var(--default-font-size);
+    padding-bottom: 5px;
+    opacity: 0.75;
+}
+
+
+
+p1:not([class]) {
+
+    display:block;
+
+    color: var(--main-text-color);
+    line-height: 22.4px;
+    font-size: var(--default-font-size)
+
+    
+}
+
+/*? style hyperlinks begin */
+
+a {
+
+    color: #5a82a9;
+    text-decoration: none;
+    border-bottom: 1px solid #393939;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+a:visited {
+
+    color: #726eac;
+}
+
+/*? style hyperlinks end */
+
+g {
+
+    font-family: 'Akshar';
+    font-weight: 700;
+    font-size: 16px;
+
+    width: 1px;
+    word-spacing: 2.6px;
+
+}
+
+i {
+
+    font-size: 15.3px;
+    font-family: 'Andada Pro';
+
+    letter-spacing: 0.5px;
+    word-spacing: 2.6px;
+
+}
+
+.override-p1-margin-left p1 {
+
+    margin-left: 0;
+
+}
+
+div.border:is(div) {
+
+    content: '';
+    border: 1px #212d4b solid;
+    opacity: 0.19;
+
+    width: 1550px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 55px;
+
+}
+
+.main_header {
+
+    display: block;
+
+    color: #acacac;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight: 200;
+    line-height: 1.3;
+    border-bottom: 2px solid #4e4e4e;
+    font-size: 1.8em;
+
+}
+
+.headline_lvl1 {
+
+    color: #acacac;
+    border-bottom: 1px solid #373a3f;
+    line-height: 1.3;
+    font-size: 21px;
+
+    margin-bottom: 13px;
+
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+
+}
+
+.headline_lvl2 {
+
+    color: rgb(211, 211, 211);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+    margin-block-start: 3px;
+    
+    font-size: 17px;
+    font-weight: 50;
+
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+
+}
+
+.headline_lvl3 {
+
+    color: rgb(184, 184, 184);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+    margin-block-start: 3px;
+    
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.headline_lvl4,
+.continuity_examples {
+    
+    display: block;
+
+    font-size: 14.5px;
+    font-weight: bold;
+    font-family: 'Andada Pro';
+
+}
+
+.headline_lvl4 {
+
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    margin-left: 5px;
+
+    color: #c4b28e;
+    line-height: 22.4px;
+
+
+}
+
+.continuity_examples {
+
+    padding-bottom: 0; padding-top: 0; margin-bottom: 4px; color: #9a7b3a;
+}
+
+.noted_subheading > *:not(.note) {
+
+    padding-bottom: 2px;
+    margin-block-end: 0em;
+
+}
+
+
+.figure_caption {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+    margin-top: 12px;
+
+    color: #a99265;
+
+    font-size: 14px;
+
+}
+
+
+.note,
+.note-not_lvl1 {
+
+    display: block;
+    padding-left: 25px;
+
+    color: var(--main-text-color);
+    font-family: 'Andada Pro';
+    font-size: 15px;
+
+}
+
+.note:last-of-type,
+.note-not_lvl1:last-of-type {
+
+    padding-bottom: 7px;
+}
+
+.note-not_lvl1 {
+
+    padding-top: 7px;
+
+}
+
+.inline-toc-navigation {
+    cursor: pointer;
+    color: #5a82a9;
+}
+
+.inline-toc-navigation:hover {
+    text-decoration: underline;
+}
+
+#trigfunc_properties > :not(#trigfunc_properties) {
+
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}

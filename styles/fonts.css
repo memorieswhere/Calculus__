@@ -1,0 +1,20 @@
+@font-face {
+
+    font-family: 'Akshar';
+    src: url('../resources/CrimsonPro-VariableFont_wght.ttf') format('truetype');
+
+}
+
+@font-face {
+
+    font-family: 'Andada Pro';
+    src: url('../resources/AndadaPro-Italic-VariableFont_wght.ttf') format('truetype');
+
+}
+
+@font-face {
+
+    font-family: 'Iosevka Fixed SS07';
+    src: url('../resources/iosevka-fixed-ss07-regular.ttf') format('truetype');
+
+}
